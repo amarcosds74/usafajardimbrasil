@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+}
+body {
+   
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    background-image:url("img/icono-aislado-atencion-medica.jpeg");
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #242faf;
+}
+
+ .btn-contato  button {
+    color: aliceblue;
+    align-items:center;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(5 14 75);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+.main {
+    
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu a{
+    color: aliceblue;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:rgb(5 14 75);
+    border: 0;
+    border-radius: 60px;
+    cursor: pointer;
+   
+}
+.header {
+    
+    background-color: rgb(5, 108, 108);
+    background-image:url("img/saúde-publica.jpg ");
+    min-height: 150px;   
+}
+.header2 {
+    
+    background-color: rgb(5, 108, 108);
+    background-image:url("img/saúde-publica.jpg ");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 150px;   
+}
+.content {
+    background-color: rgb(221, 126, 126);
+    background-image:url("img/frente-usafa-jardim-brasil.jpg"); 
+    min-height: 300px;
+    padding: 20px;}
+    
+    
+
+.content1 {
+    background-color: rgb(221, 126, 126);
+    background-image:url("img/símbolos-medicina.jpg"); 
+    min-height: 300px;
+    padding: 20px;}
+
+    .content2 {
+        background-color: rgb(221, 126, 126);
+        background-image:url("img/símbolos-medicina.jpg"); 
+        min-height: 300px;
+        padding: 20px;}
+
+.footer {
+    background-image:url("img/saúde-publica.jpg ");
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+.rodape-prin
+{
+       
+    clear: both;
+    height: 60px;      
+    color: black;
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+.rodape-prin span {
+  
+  float: left;
+  width:45%;
+  line-height: 60px; /* Mesma altura do rodapé */
+  
+}
+
+.icones-sociais ul {
+  
+  list-style-type: none;
+  
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    padding: 0 ;
+}
